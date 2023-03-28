@@ -17,8 +17,9 @@
   font-family:'Times New Roman', Times, serif;
 }
 
-body{
+html{
   background:#F6F1F1 !important;
+  overflow-x: hidden;
 }
 .App-header {
   background-color: #282c34;

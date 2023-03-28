@@ -99,8 +99,8 @@ const More = () => {
                                     <div className='card3 d-flex align-items-center'>
                                         <img className='img1 rasm1' src={item.img} alt="" />
                                         <div className='rasm'>
-                                            <img className='img2 rasm2' onClick={() => rasm()} src={item.imgold} alt="" />
-                                            <img className='img2 rasm3' onClick={() => rasm1()} src={item.imgchet} alt="" />
+                                            <img className='img2 rasm2 border border-primary border-2 rounded rounded-6 my-2' onClick={() => rasm()} src={item.imgold} alt="" />
+                                            <img className='img2 rasm3 border border-primary border-2 rounded rounded-6 my-2' onClick={() => rasm1()} src={item.imgchet} alt="" />
                                         </div>
                                     </div>
                                     <div className='yulduz'>
